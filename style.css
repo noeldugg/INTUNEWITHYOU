@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+
+}
+body {
+    background: #ff0e25;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ff0e25;
+    padding: 20px 20px;
+    color: #ff0e25;
+}
