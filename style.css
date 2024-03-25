@@ -2,23 +2,39 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: Montserrat;
+    padding: 0%;
+    margin: 0%;
+    
 
 }
 body {
     background: #ff0e25;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-nav {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat' sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #ff0e25;
-    padding: 20px 20px;
-    color: #ff0e25;
+    justify-content: center;
+}
+
+
+
+header {
+    width: 85%;
+    height: 95%;
+    border: 1px solid  #000000;
+    display: flex;
+}
+
+header .menu_side, .song_side {
+    position: relative;
+    width: 25%;
+    height: 90%;
+    /*border: 1px solid #000000;*/
+    background-color: #c50818;
+    box-shadow: 5px 0px 2px #ff0e25
+}
+header .song_side {
+    width: 75%;
+    background:  #ff0e25;
 }
